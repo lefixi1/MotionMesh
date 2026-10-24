@@ -1,0 +1,264 @@
+.regB {
+  text-decoration: none;
+  background: transparent;
+  font-size: 20px;
+  color: #a67f8e;
+}
+
+.loginB {
+  text-decoration: none;
+  background: #a67f8e;
+  border-radius: 15px;
+  color: #333745;
+  font-size: 20px;
+}
+
+.main-top {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 7rem;
+}
+
+.left-top {
+  text-align: left;
+  width: 900px;
+}
+
+.left-top h1 {
+  color: #f2e9e4;
+  margin-bottom: 0;
+}
+
+.animateText {
+  font-family: "Poppins", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: #a67f8e;
+  margin-top: 1.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.animateText span {
+  color: #22223b;
+  font-weight: 300;
+}
+
+.searchDiv {
+  padding: 10px 0;
+  /* max-width: 600px; */
+}
+
+.searchBar {
+  width: 85%;
+  padding: 10px;
+  font-size: 16px;
+  font-style: italic;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #d9d9d9;
+  padding: 0.5rem 1.5rem;
+}
+
+.searchBar::placeholder {
+  color: #a67f8e;
+}
+
+.teamWorkPic {
+  width: 613px;
+  height: 409px;
+}
+
+.browse {
+  margin: 5rem 5rem;
+  background-color: #4a4e6980;
+  padding: 1rem 5rem 2.5rem;
+}
+
+.browse h3 {
+  font-size: 40px;
+  color: #f2e9e4;
+  margin-top: 0.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.typesPro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tPro img {
+  width: 331px;
+  height: 205px;
+  border-radius: 8px;
+}
+
+.tPro p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #c9bdc2;
+}
+
+.posts {
+  margin-top: 5rem;
+  margin: 1rem 7rem;
+}
+
+.posts h2 {
+  text-align: left;
+  font-size: 40px;
+}
+
+.more-btn {
+  background-color: #3337456f;
+  border-radius: 12px;
+  font-size: 20px;
+  margin-top: 3rem;
+}
+
+.more-btn:hover {
+  background-color: #333745;
+}
+
+@media (max-width: 1024px) {
+  .main-top {
+    margin: 1rem 3rem;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .left-top {
+    width: 55%;
+  }
+
+  .animateText {
+    font-size: 48px;
+  }
+
+  .searchBar {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .teamWorkPic {
+    width: 380px;
+    height: auto;
+  }
+
+  .browse {
+    margin: 4rem 3rem;
+    padding: 1rem 2rem 2rem;
+  }
+
+  .browse h3 {
+    font-size: 34px;
+  }
+
+  .typesPro {
+    gap: 1.5rem;
+  }
+
+  .tPro img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+
+  .tPro {
+    flex: 1;
+  }
+
+  .posts {
+    margin: 1rem 3rem;
+  }
+
+  .posts h2 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 430px) {
+  .regB,
+  .loginB {
+    font-size: 15px;
+    padding: 0.7rem 1rem;
+  }
+
+  .main-top {
+    flex-direction: column;
+    margin: 2rem 1rem;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .left-top {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-top h1 {
+    font-size: 32px;
+  }
+
+  .animateText {
+    font-size: 34px;
+    margin-top: 1rem;
+    line-height: 1.3;
+  }
+
+  .searchDiv {
+    width: 100%;
+  }
+
+  .searchBar {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 0.8rem 1rem;
+  }
+
+  .teamWorkPic {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .browse {
+    margin: 3rem 1rem;
+    padding: 1rem;
+  }
+
+  .browse h3 {
+    font-size: 26px;
+    margin-bottom: 2rem;
+  }
+
+  .typesPro {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .tPro img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .tPro p {
+    font-size: 17px;
+  }
+
+  .posts {
+    margin: 2rem 1rem;
+  }
+
+  .posts h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .more-btn {
+    font-size: 16px;
+    padding: 0.8rem 1rem;
+    width: 100%;
+  }
+}
